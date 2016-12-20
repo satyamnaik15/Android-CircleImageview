@@ -1,0 +1,49 @@
+Circular ImageView
+
+1.How To use ?
+
+i) It use in XML 
+
+<{package path}.CircleImageView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  card_view:nml_border_width="2sp"
+  card_view:nml_border_color="#FF0000"
+  android:src="@drawable/frontconct"
+   />
+
+ii) add attrs.xml file in values folder under res
+
+Attrs.xml
+
+2.How it's work ?
+
+If we set a image in CircularImageView then image will be display in circular path.
+
+*  card_view:nml_border_width="2sp"
+It use to create a border.
+*  card_view:nml_border_color="#FF0000"
+It use to set color of the border.
+
+
+Example
+
+i).Original Image view
+  
+
+
+
+Ii). CircularImageView 
+
+ 
+ 
+
+
+
+By - subham Kuma Naik
+     Satyam kumar naik
+
+
+
+
+
